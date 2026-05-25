@@ -58,3 +58,10 @@ li {
 li:hover {
     background: #ddd;
 }
+
+.caja-ingreso {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+}
