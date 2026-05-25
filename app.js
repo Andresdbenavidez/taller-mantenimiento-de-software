@@ -10,3 +10,10 @@ boton.addEventListener('click', () => {
         input.value = ''; 
     }
 });
+
+
+lista.addEventListener('click', (e) => {
+    if(e.target.tagName === 'LI') {
+        e.target.style.textDecoration = 'line-through';
+    }
+});
